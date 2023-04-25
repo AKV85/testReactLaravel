@@ -6,7 +6,11 @@ import Cube from "./components/libraries/three/Cube";
 import { Canvas } from "react-three-fiber";
 import Sphere from "./components/libraries/three/Sphere";
 import Box from "./components/libraries/three/Box";
-
+import BarChart from "./components/libraries/d3/BarChart";
+import PieChart from "./components/libraries/d3/PieChart";
+import Example1 from "./components/libraries/framerMotion/Example1";
+import Example2 from "./components/libraries/framerMotion/Example2";
+import Example3 from "./components/libraries/framerMotion/Example3";
 
 function App() {
     return (
@@ -25,6 +29,12 @@ function App() {
                 <Box position={[-1.2, 0, 0]} />
                 <Box position={[1.2, 0, 0]} />
             </Canvas>
+            <BarChart/>
+            <PieChart/>
+            <Example1/>
+            <Example2/>
+            <Example3/>
+
         </div>
 
     );
