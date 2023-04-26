@@ -5,13 +5,16 @@ function UserList() {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:81/api/users')
-            .then(response => {
+        async function fetchUsers() {
+            try {
+                const response = await axios.get('http://localhost:81/api/users');
                 setUsers(response.data);
-            })
-            .catch(error => {
+            } catch (error) {
                 console.log(error);
-            });
+            }
+        }
+
+        fetchUsers();
     }, []);
 
     return (
