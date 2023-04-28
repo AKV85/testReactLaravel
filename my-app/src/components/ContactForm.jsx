@@ -37,7 +37,7 @@ function ContactForm() {
 
     return (
         <form onSubmit={handleSubmit} className="contact-form">
-            <h2>Contact Us</h2>
+            <h2>Contact Me</h2>
             {successMessage && <div className="success-message">{successMessage}</div>}
             <div className="form-group">
                 <label htmlFor="name">Name:</label>

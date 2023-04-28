@@ -82,12 +82,15 @@
 
 .contact-form .form-group input,
 .contact-form .form-group textarea {
-    font-size: 1.2rem;
+    width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
+    margin-bottom: 20px;
     background-color: #f2f2f2;
-    color: #555;
+    font-size: 16px;
+    color: #333;
+    transition: box-shadow 0.3s ease;
 }
 
 .contact-form .form-group input:focus,
@@ -107,7 +110,7 @@
 
 .contact-form .form-group .success-message {
     font-size: 1rem;
-    color: #155724;
+    color: #571521;
     background-color: #d4edda;
     padding: 5px;
     border-radius: 5px;
@@ -135,34 +138,11 @@
 }
 
 .contact-form .success-message {
-    color: #2ecc71;
+    color: #6ba252;
     background-color: #d9f9d9;
     padding: 10px;
     border-radius: 5px;
     margin-top: 20px;
-}
-
-.contact-form .form-group label {
-    font-weight: bold;
-}
-
-.contact-form .form-group input,
-.contact-form .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: #f2f2f2;
-    font-size: 16px;
-    color: #333;
-    transition: box-shadow 0.3s ease;
-}
-
-.contact-form .form-group input:focus,
-.contact-form .form-group textarea:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px #e34a4a;
 }
 
 .contact-form .error-message:before {
