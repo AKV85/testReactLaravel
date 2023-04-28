@@ -1,8 +1,7 @@
 import React from "react";
-import {FaFacebookF, FaTwitter, FaInstagram, FaGithub, FaLinkedin, FaGitlab, FaEnvelope, FaPhone} from "react-icons/fa";
+import {FaGithub, FaLinkedin, FaGitlab, FaEnvelope, FaPhone} from "react-icons/fa";
 import "../styles/Footer.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faGitlab } from '@fortawesome/free-brands-svg-icons'
+
 
 
 
