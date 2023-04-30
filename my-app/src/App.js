@@ -6,6 +6,8 @@ import SocialLinks from "./components/socialLinks/SocialLinks"
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
+import NewsletterForm from "./components/NewsLetterForm";
+
 function App() {
     return (
         <div className="App">

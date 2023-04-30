@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import '../styles/ContactForm.css';
 
 function ContactForm() {
@@ -17,7 +16,7 @@ function ContactForm() {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ name, email, message }),
+                body: JSON.stringify({name, email, message}),
             });
             const data = await response.json();
             if (response.ok) {
@@ -41,12 +40,12 @@ function ContactForm() {
             {successMessage && <div className="success-message">{successMessage}</div>}
             <div className="form-group">
                 <label htmlFor="name">Name:</label>
-                <input type="text" id="name" value={name} onChange={(event) => setName(event.target.value)} />
+                <input type="text" id="name" value={name} onChange={(event) => setName(event.target.value)}/>
                 {errors.name && <div className="error-message">{errors.name[0]}</div>}
             </div>
             <div className="form-group">
                 <label htmlFor="email">Email:</label>
-                <input type="email" id="email" value={email} onChange={(event) => setEmail(event.target.value)} />
+                <input type="email" id="email" value={email} onChange={(event) => setEmail(event.target.value)}/>
                 {errors.email && <div className="error-message">{errors.email[0]}</div>}
             </div>
             <div className="form-group">
