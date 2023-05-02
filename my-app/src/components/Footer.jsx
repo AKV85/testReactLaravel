@@ -2,6 +2,7 @@ import React from "react";
 import {FaGithub, FaLinkedin, FaGitlab, FaEnvelope, FaPhone} from "react-icons/fa";
 import "../styles/Footer.css"
 import NewsletterForm from "./NewsLetterForm";
+import {Link} from "react-router-dom";
 
 function Footer() {
     return (
@@ -9,7 +10,8 @@ function Footer() {
             <div className="footer__column">
                 <h4 className="footer__column-title">Portfolio</h4>
                 <ul className="footer__list">
-                    <li className="footer__list-item"><a href="#">About Me</a></li>
+                    <li className="footer__list-item"><Link to="/about">About</Link></li>
+                    <li className="footer__list-item"><Link to="/contact">Contact</Link></li>
                     <li className="footer__list-item"><a href="#">My Works</a></li>
                     <li className="footer__list-item"><a href="#">Blog</a></li>
                 </ul>
@@ -27,12 +29,6 @@ function Footer() {
                 </ul>
             </div>
             <div className="footer__column">
-                {/*<h4 className="footer__column-title">Join Our Newsletter</h4>*/}
-                {/*<p>Sign up for our monthly newsletter and get the latest news and updates!</p>*/}
-                {/*<form className="footer__form">*/}
-                {/*    <input type="email" placeholder="Email address" className="footer__input"/>*/}
-                {/*    <button type="submit" className="footer__button">Subscribe</button>*/}
-                {/*</form>*/}
                 <NewsletterForm/>
             </div>
         </footer>

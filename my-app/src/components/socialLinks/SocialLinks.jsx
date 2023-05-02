@@ -1,5 +1,5 @@
 import {FaGithub, FaLinkedin, FaGitlab, FaEnvelope, FaPhone} from 'react-icons/fa';
-import "../../App.css"
+import "../../styles/SocialLinks.css"
 
 function SocialLinks() {
     return (

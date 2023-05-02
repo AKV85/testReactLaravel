@@ -1,33 +1,60 @@
 import React from 'react';
-// import UserList from "./components/UserList";
 import './App.css';
-import ContactForm from "./components/ContactForm";
-import SocialLinks from "./components/socialLinks/SocialLinks"
+import {Link} from "react-router-dom"
 import Header from "./components/Header";
+import ContactForm from "./components/ContactForm";
+import AboutMe from "./pages/AboutMe";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
-import NewsletterForm from "./components/NewsLetterForm";
-import About from "./pages/About";
+import SocialLinks from "./components/socialLinks/SocialLinks";
 
-function App() {
+export function Home() {
     return (
+        <div>
+            <nav>
+                <Link to="/">Home</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/about">About</Link>
+            </nav>
+            <h1>My Home Page</h1>
+        </div>
+    );
+}
 
-        <div className="App">
+export function About() {
+    return (
+        <div>
             <Header/>
             <HeroSection/>
-            {/*<UserList/>*/}
             <SocialLinks/>
-            <div>
-                <About/>
-            </div>
-            {/*<div>*/}
-            {/*    <h1>Contact Form</h1>*/}
-            {/*    <ContactForm/>*/}
-            {/*</div>*/}
+            <AboutMe/>
             <Footer/>
         </div>
     );
 }
 
+export function Contact() {
+    return (
+        <div>
+            <Header/>
+            <HeroSection/>
+            <SocialLinks/>
+            <ContactForm/>
+            <Footer/>
+        </div>
+    );
+}
 
-export default App;
+export function App() {
+    return (
+        <div>
+            <Header/>
+            <HeroSection/>
+            <SocialLinks/>
+            <h1>My App Page</h1>
+            <Footer/>
+        </div>
+
+    );
+}
+
