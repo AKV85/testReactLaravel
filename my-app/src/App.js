@@ -7,21 +7,27 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
 import NewsletterForm from "./components/NewsLetterForm";
+import About from "./pages/About";
 
 function App() {
     return (
+
         <div className="App">
             <Header/>
             <HeroSection/>
             {/*<UserList/>*/}
             <SocialLinks/>
             <div>
-                <h1>Contact Form</h1>
-                <ContactForm/>
+                <About/>
             </div>
+            {/*<div>*/}
+            {/*    <h1>Contact Form</h1>*/}
+            {/*    <ContactForm/>*/}
+            {/*</div>*/}
             <Footer/>
         </div>
     );
 }
+
 
 export default App;

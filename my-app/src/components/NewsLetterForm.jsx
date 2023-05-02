@@ -34,7 +34,7 @@ function NewsletterForm() {
 
     useEffect(() => {
         return () => {
-            if (timer) {
+            if (typeof timer === 'number') {
                 clearTimeout(timer);
             }
         };
