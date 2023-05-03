@@ -1,7 +1,6 @@
 import React from 'react';
 import myFoto from "../images/about-foto.jpg"
 import "../styles/About.css"
-import {Link} from "react-router-dom";
 import GoldButton from "../components/GoldButton";
 function AboutMe() {
     return (
