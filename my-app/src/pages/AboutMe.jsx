@@ -2,6 +2,7 @@ import React from 'react';
 import myFoto from "../images/about-foto.jpg"
 import "../styles/About.css"
 import {Link} from "react-router-dom";
+import GoldButton from "../components/GoldButton";
 function AboutMe() {
     return (
         <div className="about">
@@ -13,8 +14,8 @@ function AboutMe() {
             <p>As a self-motivated and detail-oriented person, I am committed to delivering high-quality results and working collaboratively with others to achieve common goals. I also have excellent communication and interpersonal skills.</p>
             <p>I am committed to continuous learning and development, and I regularly participate in various courses and training programs to stay up-to-date with the latest trends and technologies in the field.</p>
             <p>Feel free to connect with me</p>
-            <div className="about-btns">
-                <Link to="/contact" className="btn">Contact Me</Link>
+            <div>
+                <GoldButton text="Contact Me" to="/contact" />
             </div>
         </div>
     );

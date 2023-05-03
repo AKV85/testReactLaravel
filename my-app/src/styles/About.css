@@ -63,6 +63,7 @@
 }
 
 .about-btns .btn {
+    background-image: linear-gradient(to bottom, #2d2c2c, #ab9717);
     display: inline-block;
     margin: 10px;
     padding: 12px 30px;

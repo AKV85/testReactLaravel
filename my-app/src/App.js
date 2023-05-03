@@ -54,7 +54,6 @@ export function App() {
             <h1>My App Page</h1>
             <Footer/>
         </div>
-
     );
 }
 

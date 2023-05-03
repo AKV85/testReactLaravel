@@ -21,24 +21,3 @@
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
-
-.hero-btns {
-    display: flex;
-    justify-content: center;
-}
-
-.hero-btns .btn {
-    font-size: 1.2rem;
-    padding: 1rem 2rem;
-    margin: 0 1rem;
-    border-radius: 3px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #2d2c2c;
-    border: none;
-    cursor: pointer;
-}
-
-.hero-btns .btn:hover {
-    background-color: #816b23;
-}
