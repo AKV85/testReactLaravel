@@ -12,6 +12,7 @@
     text-align: center;
 }
 
+
 .success-message {
     color: #bde3bd;
     font-size: 0.8rem;
@@ -31,7 +32,7 @@
     border: none;
     border-radius: 5px;
     padding: 0.5rem;
-    width: 100%;
+    width: auto;
     margin-bottom: 1rem;
 }
 
@@ -51,7 +52,7 @@
     padding: 0.5rem;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    width: 100%;
+    width: auto;
 }
 
 .newsletter__button:hover {
@@ -59,7 +60,7 @@
     color: #E0DDCC;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .newsletter-form {
         flex-direction: row;
     }
@@ -68,8 +69,13 @@
         width: auto;
         margin-bottom: 1rem;
     }
+
     .newsletter__button {
         width: auto;
+    }
+
+    .newsletter__column-title {
+        font-size: 1rem; /* adjust font size for smaller screens */
     }
 }
 

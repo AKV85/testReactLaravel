@@ -7,6 +7,7 @@ import AboutMe from "./pages/AboutMe";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
 import SocialLinks from "./components/socialLinks/SocialLinks";
+import Main from "./pages/Main";
 
 export function Home() {
     return (
@@ -51,7 +52,7 @@ export function App() {
             <Header/>
             <HeroSection/>
             <SocialLinks/>
-            <h1>My App Page</h1>
+            <Main/>
             <Footer/>
         </div>
     );

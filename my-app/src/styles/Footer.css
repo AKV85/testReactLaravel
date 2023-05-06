@@ -22,6 +22,12 @@
     margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+    .footer__column-title {
+        font-size: 1rem; /* adjust font size for smaller screens */
+    }
+}
+
 .footer__list {
     list-style-type: none;
     margin: 0;
