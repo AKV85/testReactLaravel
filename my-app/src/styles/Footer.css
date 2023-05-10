@@ -7,12 +7,6 @@
     padding: 40px 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .footer {
-        font-size: 1rem; /* adjust font size for smaller screens */
-    }
-}
-
 .footer__column {
     width: 33.33%;
 }
@@ -53,25 +47,3 @@
     margin-top: 1.5rem;
 }
 
-.footer__input {
-    border: none;
-    border-radius: 5px;
-    padding: 0.5rem;
-    width: 100%;
-}
-
-.footer__button {
-    background-color: #E0DDCC;
-    border: none;
-    border-radius: 5px;
-    color: #1F1D17;
-    font-size: 1rem;
-    margin-left: 1rem;
-    padding: 0.5rem;
-}
-
-@media screen and (max-width: 768px) {
-    .footer__button {
-        font-size: 0.8rem; /* adjust font size for smaller screens */
-    }
-}

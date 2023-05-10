@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.98fe5351.css",
-    "main.js": "/static/js/main.0df05ac1.js",
+    "main.css": "/static/css/main.0a7c4b0d.css",
+    "main.js": "/static/js/main.40012b57.js",
     "static/media/about-foto.jpg": "/static/media/about-foto.3412aaf4c98c7ebffd23.jpg",
     "static/media/akvLogos.jpeg": "/static/media/akvLogos.8bddf74a0feb3645659c.jpeg",
     "index.html": "/index.html",
-    "main.98fe5351.css.map": "/static/css/main.98fe5351.css.map",
-    "main.0df05ac1.js.map": "/static/js/main.0df05ac1.js.map"
+    "main.0a7c4b0d.css.map": "/static/css/main.0a7c4b0d.css.map",
+    "main.40012b57.js.map": "/static/js/main.40012b57.js.map"
   },
   "entrypoints": [
-    "static/css/main.98fe5351.css",
-    "static/js/main.0df05ac1.js"
+    "static/css/main.0a7c4b0d.css",
+    "static/js/main.40012b57.js"
   ]
 }

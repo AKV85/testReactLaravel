@@ -66,16 +66,25 @@
     }
 
     .newsletter__input {
-        width: auto;
+        width: 80px;
         margin-bottom: 1rem;
     }
 
     .newsletter__button {
         width: auto;
+
     }
 
     .newsletter__column-title {
+        margin-top: -2px;
         font-size: 1rem; /* adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 240px) {
+    .newsletter__input {
+        width: 40px;
+        margin-bottom: 1rem;
     }
 }
 
