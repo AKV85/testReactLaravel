@@ -23,6 +23,7 @@ Route::get('/users', function () {
     $users = App\Models\User::all();
     return response()->json($users);
 });
+Route::get('/contacts', [ContactController::class, 'index']);
 
 Route::post('/contacts', [ContactController::class, 'store']);
 
