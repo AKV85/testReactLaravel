@@ -12,6 +12,12 @@ use Illuminate\Validation\Rule;
 
 class SubscribersController extends Controller
 {
+    public function index()
+    {
+        $contacts = Subscriber::all();
+        return response()->json(['contacts' => $contacts]);
+    }
+
     public function store(Request $request)
     {
         $data = $request->validate([
