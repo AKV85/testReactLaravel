@@ -27,4 +27,6 @@ Route::get('/contacts', [ContactController::class, 'index']);
 
 Route::post('/contacts', [ContactController::class, 'store']);
 
+Route::get('/subscribers', [SubscribersController::class, 'index']);
+
 Route::post('/subscribers', [SubscribersController::class, 'store']);
